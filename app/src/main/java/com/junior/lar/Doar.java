@@ -1,4 +1,4 @@
-package com.junior.login;
+package com.junior.lar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;
 
-public class doar extends AppCompatActivity {
+public class Doar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,6 @@ public class doar extends AppCompatActivity {
         toast.show();
     }
     public void voltarInicio(View v){
-        startActivity(new Intent(this, menu.class));
+        startActivity(new Intent(this, Menu.class));
     }
 }

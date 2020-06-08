@@ -1,4 +1,4 @@
-package com.junior.login;
+package com.junior.lar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final Intent tela2 = new Intent(this, menu.class); // trocar o nome p a proxima tela tela2
+        final Intent tela2 = new Intent(this, Menu.class); // trocar o nome p a proxima tela tela2
         setContentView(R.layout.activity_main);
         Button btLogin = (Button) findViewById(R.id.btLogin);
         btLogin.setOnClickListener(new View.OnClickListener() {

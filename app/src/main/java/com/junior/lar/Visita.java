@@ -1,4 +1,4 @@
-package com.junior.login;
+package com.junior.lar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
@@ -62,7 +62,7 @@ public class Visita extends AppCompatActivity {
     }
 
     public void voltar (View v) {
-        startActivity(new Intent(this, menu.class));
+        startActivity(new Intent(this, Menu.class));
 
     }
 

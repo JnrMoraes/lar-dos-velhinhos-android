@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.junior.login">
+    package="com.junior.lar">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sobre"></activity>
-        <activity android:name=".doar" />
-        <activity android:name=".estatistica" />
-        <activity android:name=".Visita" />
-        <activity android:name=".menu" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.junior.lar.Sobre"></activity>
+        <activity android:name="com.junior.lar.Doar" />
+        <activity android:name="com.junior.lar.Estatistica" />
+        <activity android:name="com.junior.lar.Visita" />
+        <activity android:name="com.junior.lar.Menu" />
+        <activity android:name="com.junior.lar.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.junior.login;
+package com.junior.lar;
 
         import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ package com.junior.login;
         import android.os.Bundle;
         import android.view.View;
 
-public class menu extends AppCompatActivity {
+public class Menu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +21,16 @@ public class menu extends AppCompatActivity {
     }
 
     public void sobre (View v) {
-        startActivity(new Intent(this, sobre.class));
+        startActivity(new Intent(this, Sobre.class));
 
     }
 
     public void estatistica (View v) {
-        startActivity(new Intent(this, estatistica.class));
+        startActivity(new Intent(this, Estatistica.class));
 
     }
     public void doacao (View v) {
-        startActivity(new Intent(this, doar.class));
+        startActivity(new Intent(this, Doar.class));
 
     }
 }

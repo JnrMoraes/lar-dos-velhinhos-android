@@ -1,4 +1,4 @@
-package com.junior.login;
+package com.junior.lar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class estatistica extends AppCompatActivity {
+public class Estatistica extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ public class estatistica extends AppCompatActivity {
         setContentView(R.layout.activity_estatistica);
     }
     public void tela2 (View v) {
-        startActivity(new Intent(this, menu.class));
+        startActivity(new Intent(this, Menu.class));
 
     }
 }
